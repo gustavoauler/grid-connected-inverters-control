@@ -12,7 +12,7 @@ In the context of power electronics, proportional resonant controllers hold sign
 In DC applications, PI and PID controllers can provide optimal performance, showcasing zero steady-state error due to their infinite DC gain provided by the integrator in the transfer function. However, in AC applications, these controllers exhibit a delay in tracking their response, preventing zero steady-state error.
 Proportional resonant controllers offer a finite yet very high gain at the desired AC frequency, possessing a disturbance rejection characteristic and consequently nullifying the steady-state error. The transfer function representing this controller is given by:
 $$\ C(s) = K_p + \frac{K_rs}{s^2+\omega^2} \$$
-In this expression, the term in the denominator $s^2+\omega^2\$ creates an infinite control gain at the frequency $\omega$
+In this expression, the term in the denominator $s^2+\omega^2\$ creates an infinite control gain at the frequency $\omega$.
 To design this controller, the following block diagram can represent the transfer function described above:
 ![image](https://github.com/gustavoauler/grid-connected-inverters-control/assets/113851430/ffc495bb-a47a-4877-b2d4-4163a73a6796)
 The choice of the optimal constant parameters mainly rely on empirical methods, but a good starting point for the LCL filter plant described in this section is:
