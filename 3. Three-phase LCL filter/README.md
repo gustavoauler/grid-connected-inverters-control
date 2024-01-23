@@ -21,5 +21,5 @@ To enhance the model in the previous section, a PWM control signal will be used,
 To generate a sinusoidal signal, it uses multiple pulses with different periods, causing the average value to be the sin wave. To see the Three-Phase LCL filter with PWM, check the file 'LCL_Three_PWM' on the 'PSIM' folder.
 
 ## Simulink
-Finally, to ease the process of tunning the controller, the last circuit was converted to simulink. On this file, the PLL and Inverter are done manually, when on PSIM the blocks are already available. The electrical libraries are required.
+Finally, to ease the process of tuning the controller, the last circuit was converted to simulink. On this file, the PLL and Inverter are done manually, when on PSIM the blocks are already available. The electrical libraries are required.
 To see the simulation, open the 'Simulink' folder and check de 'lcl' file.
