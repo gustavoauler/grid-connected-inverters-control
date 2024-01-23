@@ -22,7 +22,7 @@ The other constant is determined using the gain $G_c$ at the ressonant frequency
 $$\ G_c = \frac{K_r \omega_c}{\omega_c^2 + \omega^2} \$$
 In the LCL filter,  $\omega_c$ is 
 $$\ \omega_c = \sqrt{\frac{L_1 + L_2}{L_1L_2C}} \$$ 
-thus, $K_r$ will have its final expression given by, where the gain is set to 0.1
+thus, $K_r$ will have its final expression given by the following expression, where the gain is set to 0.1:
 $$\ K_r= 0.1\frac{\omega_c^2 + \omega^2}{\omega_c} \$$
 It is crucial to emphasize that these values provide an initial estimation of the parameters. Therefore, iterative testing is essential for controller tuning to achieve optimal performance. In the conducted tests, which varied the individual inductance from 20µH to 1mH (values within the typical range chosen for LCL filters), all yielded satisfactory results.
 To tune the controller, it is important to understand what the variation of the constant parameters mean. By varying the parameters $K_p$ and $K_r$, it is possible to optimize the controller. As mentioned earlier, the proportional gain $K_p$ primarily determines the controller's dynamics, while Kr determines the amplitude gain at a selected frequency and controls the bandwidth around it. This relationship can be observed in the following graphs, where one of the controller values is kept constant while the other is varied, displayed in multiple curves on the same graph:
