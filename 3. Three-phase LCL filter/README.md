@@ -1,4 +1,4 @@
-# Current Control of the Single-phase LCL filter
+# Current Control of the Three-phase LCL filter
 For the next step, it was chosen to simulate a circuit similar to the previous one, but this time in three phases. This evolution proves to be a bit more complex, as the currents need to undergo the abc/dq transformation to be controlled. In the other hand, by transforming a sinusoidal signal into a continuos one, it enables PI controllers to be used instead of ressonant controllers. The plant that will be studied can be seen below.
 ![image](https://github.com/gustavoauler/grid-connected-inverters-control/assets/113851430/6b2a1ace-39e9-44a6-af25-f213124b5c4f)
 ## Tranformations
