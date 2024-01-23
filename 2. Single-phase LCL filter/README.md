@@ -1,5 +1,5 @@
 # Current Control of the Single-phase LCL filter
-The first approach to the current control problem will be a single phase grid connected to a controlled voltage source and a LCL filter, as it is illustrated in the image below:
+The first approach to the current control problem will be a single-phase grid connected to a controlled voltage source and a LCL filter, as it is illustrated in the image below:
 
   ![single_lcl](https://github.com/gustavoauler/grid-connected-inverters-control/assets/113851430/227fcbe4-3f52-40aa-acbc-0afda81a5302)
 
